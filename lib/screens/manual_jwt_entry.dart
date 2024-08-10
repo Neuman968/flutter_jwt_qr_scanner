@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:jwt_flutter_reader/jwt/jwt_validation.dart';
 
 class ManualJwtEntry extends StatefulWidget {
-
   const ManualJwtEntry({super.key});
 
   @override

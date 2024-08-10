@@ -4,7 +4,8 @@ import 'package:jwt_flutter_reader/screens/manual_jwt_entry.dart';
 import 'screens/qr_scanner.dart'; // Import the QRScanner widget
 
 // Replace with another public key, or override with --dart-define at runtime.
-const publicKeyPem = String.fromEnvironment('PUBLIC_KEY_PEM', defaultValue: """-----BEGIN PUBLIC KEY-----
+const publicKeyPem = String.fromEnvironment('PUBLIC_KEY_PEM',
+    defaultValue: """-----BEGIN PUBLIC KEY-----
 MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYi1sxMbI2O8ahbk01xd9wKjxrFPB
 GQIyPx/5rd872ccxTPb5AiVfYii7ug4bUpQtPfgtews3JOH3ki7LlvZxRg==
 -----END PUBLIC KEY-----""");

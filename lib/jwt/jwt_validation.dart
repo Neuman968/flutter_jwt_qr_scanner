@@ -3,7 +3,6 @@ import 'package:logger/logger.dart';
 
 import '../main.dart';
 
-
 final Logger logger = Logger();
 
 enum JWTTokenState {
