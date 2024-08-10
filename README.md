@@ -1,4 +1,4 @@
-# QR Code JWT Token Validator. 
+# QR Code Scanner & JWT Token Validator 
 
 This is an example project that showcases scanning a QR code that is a JWT token and validating it based on 
 its public key. The public key can be set at runtime using `--dart-define=PUBLIC_KEY_PEM=<public_key_pem>`
